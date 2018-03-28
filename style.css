@@ -8,41 +8,51 @@
           font: 60px Arial bold;
           border-radius: 10%;
       }
-
       ul {
           list-style: none;
           padding: 0;
       }
       img {
           display: inline;
-          width: 280px;
+          width: 300px;
           height: 100px;
       }
-      #footer {
+      body{
+        background-image: url(Guess.png);
+      }
+      #headtext{
+          color: mediumvioletred;
+          font-family: verdana;
+
+      }
+      #footer {  
           width: 100%;
           border-top: solid 2px black;
           background-color: white;
           position: fixed;
           bottom: 0;
-      }
-      body{
-        background-color: red;
+          text-align: center;
+          font-family: verdana;
       }
        #player-input{
-          position: absolute;
+          position: relative;
           border: 1px solid gray;
+          left: 50px;
           width: 150px;
           height: 150px;
           border-radius: 50%;
           padding: 25px 10px;
-          font: 50px Arial bold gray;
+          font: 50px bold;
       } 
-      #button-submit{
+      #app {
           position: relative;
+          top: 50px;
+      }
+      #button-submit{
+          position: absolute;
           width: 50px;
           height: 50px;
-          top: 100px;
-          left: 100px;
+          top: 120px;
           border-radius: 50%;
           font: 60px;
        }
@@ -52,11 +62,7 @@
           margin: 5% auto 50px;
           position: relative;
        }
-       #guesses{
-          top: 100px;
-          position: relative;
-       }
-       #menu-btns{
-         top: 100px;
-          position: relative;
+       #project-by{
+        position: relative;
+        top: 35px;
        }
