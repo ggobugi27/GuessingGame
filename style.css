@@ -1,4 +1,4 @@
-      .center{
+     .center{
           text-align: center;
       }
       .guess{
@@ -7,6 +7,7 @@
           padding: 0 25px;
           font: 60px Arial bold;
           border-radius: 10%;
+          background-color: lightpink;
       }
       ul {
           list-style: none;
@@ -18,12 +19,17 @@
           height: 100px;
       }
       body{
-        background-image: url(Guess.png);
-      }
+          background-position: right;
+          background-image: url(Guess1.png)
+        }
       #headtext{
+          display: table;
+          margin:auto;
           color: mediumvioletred;
           font-family: verdana;
-
+          background-color: pink;
+          padding:10px;
+          border: solid black 1px;
       }
       #footer {  
           width: 100%;
